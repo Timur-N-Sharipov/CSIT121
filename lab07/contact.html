@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+        <nav>
+        <ul>
+            <li>
+                <a href="tierlist.html">Click here for Tier List</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <form action="tierlist.html" method="get" aria-label="Contact Form">
+
+            <!--This are is for name-->
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true">
+    </div>
+            <!--This area is for email-->
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true">
+    </div>
+
+    <h3>Please respond to the following questions.</h3>
+
+
+            <!--Radio buttons to check if they agree with the list-->
+    <div>
+        <p>Do you agree with the tier list?</p>
+        <label for="yes-opinion">Yes</label>
+        <input type="radio" name="opinion" id="yes-opinion" value="yes" required aria-required="true">
+        <label for="no-opinion">No</label>
+        <input type="radio" name="opinion" id="no-opinion" value="no" required aria-required="true">
+    </div>
+
+
+            <!--This are is for a drop dowm menu to pick their favorite anime-->
+    <div>
+        <label for="favorite-anime">Pick your favorite show from the tier list</label>
+        <select name="favorite-anime" id="favorite-anime">
+            <option value="one-piece">One Piece</option>
+            <option value="naruto">Naruto</option>
+            <option value="bleach">Bleach</option>
+            <option value="dragon-ball">Dragon Ball</option>
+            <option value="one-punch-man">One Punch Man</option>
+            <option value="demon-slayer">Demon Slayer</option>
+        </select>
+    </div>
+
+
+            <!--Lets them select their favorite S tier character-->
+    <div>
+        <p>Pick your favorite S tier Character</p>
+        <label for="imu">Imu</label>
+        <input type="checkbox" name="favorite-character" id="imu">
+        <label for="naruto">Naruto</label>
+        <input type="checkbox" name="favorite-character" id="naruto">
+        <label for="yhwach">Yhwach</label>
+        <input type="checkbox" name="favorite-character" id="yhwach">
+        <label for="zeno">Zeno</label>
+        <input type="checkbox" name="favorite-character" id="zeno">
+        <label for="saitama">Saitama</label>
+        <input type="checkbox" name="favorite-character" id="saitama">
+        <label for="yoriichi">Yoriichi</label>
+        <input type="checkbox" name="favorite-character" id="yoriichi">
+    </div>
+
+
+
+        <!--This shows a list to pick the tier they agree with the most-->
+        <div>
+        <label for="tier-select">Which tier do you agree with the most</label>
+        <select name="tier-select" id="tier-select">
+            <option value="s">S</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+        </select>
+    </div>
+
+
+        <!--This are will ask the user for feed back and their opinion-->
+    <div>
+        <p>Based on the tier list, what do you agree and disagree with? What needs to be changed?</p>
+        <textarea name="user-opinion" id="user-feedback" rows="10" cols="50" placeholder="Type Your opinion here"></textarea>
+    </div>
+
+    
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+
+    </main>
+
+</body>
+
+
+</html>
