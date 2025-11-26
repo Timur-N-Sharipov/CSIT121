@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(images/21.png);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 25px;
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 25px;
+}
+
+article p {
+    text-align: center;
+    line-height: 25px;
+}
+
+#list-target {
+    margin-top: 15px;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 25px;
+}
+.upper-section {
+    background-color: rgb(255, 166, 24);
+}
+
+
+
